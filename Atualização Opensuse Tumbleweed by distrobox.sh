@@ -3,15 +3,15 @@
 ###Opensuse Tumbleweed by distrobox###
 ###Atualização completa do sistema###
 
-sudo zypper refresh; #Atualizar todos os repositórios.
-sudo zypper clean; #Limpa caches locais.
-sudo zypper refresh-services; #Atualizar todos os serviços.
-sudo zypper purge-kernels; #Remover kernels antigos.
-sudo zypper update; #Atualizar os pacotes instalados com versões mais recentes.
-sudo zypper dist-upgrade; #Realiza a atualização da distribuição.
-sudo zypper patch; #Instalar as correções necessárias.
-sudo zypper patch-check; #Verificar por correções.
-sudo zypper verify; #Verificar a integridade das dependências dos pacotes.
+sudo zypper -n refresh; #Atualizar todos os repositórios.
+sudo zypper -n clean; #Limpa caches locais.
+sudo zypper -n refresh-services; #Atualizar todos os serviços.
+sudo zypper -n purge-kernels; #Remover kernels antigos.
+sudo zypper -n update; #Atualizar os pacotes instalados com versões mais recentes.
+sudo zypper -n dist-upgrade; #Realiza a atualização da distribuição.
+sudo zypper -n patch; #Instalar as correções necessárias.
+sudo zypper -n patch-check; #Verificar por correções.
+sudo zypper -n verify; #Verificar a integridade das dependências dos pacotes.
 sudo grub2-mkconfig -o /boot/grub2/grub.cfg; ##Atualiza o grub
 
 ##Instalação de programas no distrobox archlinux##
