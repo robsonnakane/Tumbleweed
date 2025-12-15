@@ -55,7 +55,11 @@ flatpak update -y;
 
 systemctl reboot
 
+##Configurações IceWM pós instalação##
 ##Bluetooth: utilizar o blueman-manager no terminal ou no menu como gerenciador de Bluetooth
+##Configurações das teclas de atalho "localhost:~ # nano /etc/icewm/keys"
+##Configurações das teclas de menu suspenso "localhost:~ # nano /etc/icewm/menu"
+##Após as alterações aplicar comando: icewm --restart
 
         ##Imagens do distrobox dependendo da distro##
 #archlinux: docker.io/library/archlinux:latest
