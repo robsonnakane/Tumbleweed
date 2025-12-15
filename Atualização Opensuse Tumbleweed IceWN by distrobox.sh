@@ -14,7 +14,7 @@ sudo zypper -n patch-check; #Verificar por correções.
 sudo zypper -n verify; #Verificar a integridade das dependências dos pacotes.
 sudo grub2-mkconfig -o /boot/grub2/grub.cfg; ##Atualiza o grub
 
-#zypper -n in rofi blueman steam-devices distrobox podman fastfetch rsync gnome-boxes dolphin kitty;
+#zypper -n in rofi blueman steam-devices distrobox podman fastfetch rsync gnome-boxes dolphin kitty dvd+rw-tools toolbox;
 
 #flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo; ##Instalação dos pacotes Flatpak##
 
