@@ -30,17 +30,10 @@ systemctl reboot
 ##Configurações das teclas de menu suspenso "localhost:~ # nano /etc/icewm/menu"
 ##Após as alterações aplicar comando: icewm --restart
 
-        ##Imagens do distrobox dependendo da distro##
-#archlinux: docker.io/library/archlinux:latest
-#fedora: registry.fedoraproject.org/fedora:latest
-
         ##Baixar um vídeo em melhor qualidade:##
-#distrobox enter archlinux -- yt-dlp URL
+#yt-dlp URL
         ##Baixar só áudio (MP3):
-#distrobox enter archlinux -- yt-dlp -x --audio-format mp3 URL
-
-        ##Atualização de versão##
-#rpm-ostree rebase fedora:fedora/43/x86_64/kinoite;
+#yt-dlp -x --audio-format mp3 URL
 
         ##Realização de backup
 #sudo rsync -avzrp --delete /home/robsonnakane/'Robson Nakane'/ robsonnakane@192.168.15.15:/home/robsonnakane/lenovo/
